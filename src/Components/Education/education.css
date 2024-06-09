@@ -1,0 +1,102 @@
+
+.education{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color:var( --bg-color);
+    padding: 30px;
+    height: 75vh;
+    border-radius: 20px;
+}
+
+.education .logo{
+    width: 300px;
+}
+.education .logo p{
+   margin-top: 10px;
+}
+.education .c-work h4{
+    font-size: 3rem;
+}
+.education .c-work ul li{
+    list-style: disc;
+    color: var(--text-x-dark-gray);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.certificates{
+    height: 100vh;
+}
+.certificates .companies{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.certificates .companies .img img{
+    width: 300px;
+    height: 150px;
+    transition: .5 ease;
+    backface-visibility: hidden;
+}
+
+.certificates .companies .img:hover{
+    cursor: pointer;
+    opacity: 0.3;
+    
+}
+
+
+
+
+@media screen and (max-width: 1080px) and (min-width:781px){
+    .education .logo{
+        width: 250px;
+    }
+    .education .c-work h4{
+        font-size: 2.5rem;
+    }
+    .education .c-work ul li{
+        font-size: 1.5rem;
+    }
+  }
+
+@media only screen and (max-width: 780px){
+
+    .education{
+        flex-direction: column;
+        height: 100%;
+        gap: 50px;
+    }
+    .education .logo{
+        width: 270px;
+    }
+    .education .c-work h4{
+        font-size: 2.7rem;
+    }
+    .education .c-work ul li{
+        font-size: 1.6rem;
+    }
+    .certificates .companies .img img{
+        width: 240px;
+        height: 100px;
+    }
+  }
+
+  /* for small devices */
+  
+  @media screen and (max-width: 350px) {
+    .education .logo{
+        width: 250px;
+    }
+    .education .c-work h4{
+        font-size: 2.5rem;
+    }
+    .education .c-work ul li{
+        font-size: 1.5rem;
+    }
+    .certificates .companies{
+        flex-direction: column;
+    }
+  }
+  
