@@ -21,31 +21,37 @@ function Home2() {
             </Tilt>
           </div>
           <div className="home-about-description">
-            <h1 className="heading">
-              INTRODUCTION
-            </h1>
-            <p className="home-about-body">
-            I am a Pre-final year student pursuing Computer Science and Engineering @ BTKIT Dwarahat with a passion for programming and web development.💻
-            and I have at least learnt
-              something, Maybe
-              <br />
-              <br />The best weapons :-
-              <i>
-                <b className="purple"> C++ and Javascript. </b>
-              </i>
-              <br />
-              <br />
-              I'm Interested in building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also Interested in{" "}
-                <b className="purple">Problem solving DSA.</b>
-              </i>
-              <br />
-              <br />
-              Things I am Currently Working on :- <b className="purple"> M.E.R.N Stack</b>
-            </p>
-          </div>
+  <h1 className="heading">
+    INTRODUCTION
+  </h1>
+  <p className="home-about-body">
+    I am a final-year Computer Science and Engineering student at BTKIT Dwarahat, passionate about programming, web development, and creating impactful digital solutions. 💻
+    <br />
+    <br />
+    My strongest tools are:
+    <i>
+      <b className="purple"> C++, JavaScript, and the MERN Stack.</b>
+    </i>
+    <br />
+    <br />
+    I have developed a strong command of full-stack web development, specializing in building modern
+    <i>
+      <b className="purple"> Web Technologies and Products</b>
+    </i>
+    , as well as honing my skills in
+    <i>
+      <b className="purple"> Data Structures and Algorithms (DSA)</b>
+    </i>
+    for problem-solving.
+    <br />
+    <br />
+    Currently, I am actively working on exciting projects using the
+    <b className="purple"> MERN Stack </b>
+    and continually exploring new technologies to expand my expertise as a 
+    <b className="purple"> Full-Stack Developer.</b>
+  </p>
+</div>
+
         </div>
         <Row>
           <Col md={12} className="home-about-social">
