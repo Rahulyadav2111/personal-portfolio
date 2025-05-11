@@ -8,12 +8,6 @@ const Contact = () => {
         <h2>CONTACT</h2>
         <div className="details">
           <div className="detail">
-            <h1>My Address</h1>
-            <p>Govind Vihar Colony</p>
-            <p>Kichha</p>
-            <p>U. S. Nagar, UK 263148</p>
-          </div>
-          <div className="detail">
             <h1>SOCIAL PROFILES</h1>
             <div className="social">
             <a href="https://www.linkedin.com/in/rahul-yadav21/" target='_blank'>LinkedIn</a>

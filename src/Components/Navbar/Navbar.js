@@ -55,7 +55,7 @@ const Navbar = () => {
       <header className="header header-js">
         <div className="container">
           <div className="logo" data-aos="fade-down">
-            <a href="#home">
+            <a href="/">
               Rahul<span>Yadav</span>
             </a>
           </div>
