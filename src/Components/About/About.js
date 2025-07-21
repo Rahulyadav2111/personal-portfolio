@@ -38,7 +38,7 @@ const About = () => {
               Hey! I’m Rahul Yadav, a software engineer fascinated by MERN stack and full-stack development. I’m all about creating seamless user experiences and bringing ideas to life through code. Whether it’s crafting responsive front-end interfaces or optimizing server-side performance, I’m in my element. Beyond that, I’m passionate about diving deep into data structures and algorithms, sharpening my problem-solving skills with C++. Let’s collaborate and build something incredible together!
               </p>
             </motion.article>
-            <Link className="btn" to="https://drive.google.com/file/d/18OogG877520f21__2U6wBK9Ddx1Q8Lp6/view?usp=sharing" target="_blank">Show Resume</Link>
+            <Link className="btn" to="https://drive.google.com/file/d/1n0b_EBDKI6d5sYmHfxvJnwlY1Rt7X094/view?usp=sharing" target="_blank">Show Resume</Link>
           </motion.div>
         </div>
         <div className="interests" >
